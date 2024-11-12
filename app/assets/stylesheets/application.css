@@ -14,13 +14,14 @@
  *= require_self
  */
 
- form {
-  width: 400px;
+ .callout {
+  padding: 1rem;
+  border-left: 5px solid grey;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
  }
 
- .btn {
-  width: 100px;
-  color: white;
-  background-color: black;
-  ;
+ .callout.coach {
+  background-color: yellow;
  }
